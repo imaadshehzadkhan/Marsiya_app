@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"> <!-- Reduced padding -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headingTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="مضمون چھوکھ (زخم )"
+                android:fontFamily="@font/gulzarregular"
+                android:paddingTop="10dp"
+                android:textSize="30sp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/headingColor"
+                android:paddingRight="4dp"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/contentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marsiya Content"
+                android:fontFamily="@font/gulzarregular"
+                android:textSize="27sp"
+                android:paddingLeft="0dp"
+                android:paddingRight="4dp"
+                android:gravity="right"
+                android:textColor="@color/linetext"
+                android:textAlignment="viewStart"
+                android:layoutDirection="rtl"
+                android:textDirection="rtl"
+                android:lineSpacingExtra="0dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ZoomControls
+        android:id="@+id/zoomControls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
