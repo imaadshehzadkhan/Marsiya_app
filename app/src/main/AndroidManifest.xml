@@ -16,6 +16,12 @@
         android:theme="@style/Theme.KashmirMarsiyaApp"
         tools:targetApi="31">
         <activity
+            android:name=".NohaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
             android:name=".TextViewerActivity"
             android:exported="false" />
         <activity

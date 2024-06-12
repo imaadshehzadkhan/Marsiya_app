@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get In Touch"
+            android:textStyle="bold"
+            android:textColor="@color/custom_green"
+            android:textSize="25sp"
+            android:layout_margin="20dp"
+            />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="16dp"
+            android:text="How can I help you?"
+            android:textColor="@color/custom_green"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="firstname" />
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="lastname" />
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edit_text_background"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="email" />
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="362dp"
+            android:layout_height="156dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Leave us message"
+            android:inputType="textMultiLine" />
+
+        <CheckBox
+            android:id="@+id/privacyPolicy"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp"
+            android:text="  I  agree to your Privacy Policy"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="348dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/buttonbg"
+            android:textColor="@color/white"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

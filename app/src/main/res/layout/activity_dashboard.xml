@@ -320,10 +320,10 @@
                     android:layout_marginTop="40dp"
                     android:elevation="100dp"
                     app:cardCornerRadius="10dp"
-                    app:layout_constraintEnd_toEndOf="@+id/cardView4"
+                    app:layout_constraintEnd_toEndOf="@+id/nohaCard"
                     app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/cardView4"
-                    app:layout_constraintTop_toBottomOf="@+id/cardView4">
+                    app:layout_constraintStart_toStartOf="@+id/nohaCard"
+                    app:layout_constraintTop_toBottomOf="@+id/nohaCard">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -358,6 +358,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/contactCard"
                     android:layout_width="82dp"
                     android:layout_height="85dp"
                     android:layout_marginTop="32dp"
@@ -399,7 +400,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardView4"
+                    android:id="@+id/nohaCard"
                     android:layout_width="84dp"
                     android:layout_height="89dp"
                     android:layout_marginStart="136dp"
